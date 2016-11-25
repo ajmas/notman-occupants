@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title> Guides </title>
+    <title> {{page.display}} </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
@@ -17,9 +17,13 @@
         {
           "@id": "organization",
           "@type": "schema:Organization",
-          "schema:name": "Guides",
-          "schema:url": "https://maison-notman-house.github.io/notman-occupants/Organization/Guides/",
+          "schema:name": "{{page.display}}",
+          "schema:url": "https://maison-notman-house.github.io/notman-occupants/Organization/{{page.ref}}/",
+          "schema:logo": "https://maison-notman-house.github.io/notman-occupants/Organization/{{page.ref}}/{{page.image}}",
           "schema:sameAs": [
+	  {% if page.sameAs != null %}
+	     {{page.sameAs | jsonify}}
+	  {% endif %}             
           ]
         }
       ]
@@ -30,10 +34,10 @@
     <div ng-controller="MetadataCtrl" class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <img ng-src="{{imgUrl}}" class="img-responsive center-block">
+          <img ng-src="{{ "{{imgUrl" }}}}" class="img-responsive center-block">
         </div>
         <div class="col-md-8">
-          <pre>{{story}}</pre>
+          <pre>{{ "{{story" }}}}</pre>
           <p class="text-center">
             <a href="../../"
                class="btn btn-primary"> Notman Occupants Index </a>

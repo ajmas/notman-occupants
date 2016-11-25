@@ -1,0 +1,20 @@
+{
+  "@context": {
+	"schema": "http://schema.org/"
+  },
+  "@graph": [
+	{
+	  "@id": "organization",
+	  "@type": "schema:Organization",
+	  "schema:name": "{{page.display}}",
+	  "schema:url": "https://maison-notman-house.github.io/notman-occupants/Organization/{{page.ref}}/",
+	  "schema:logo": "https://maison-notman-house.github.io/notman-occupants/Organization/{{page.ref}}/{{page.image}}",
+	  "schema:sameAs": [
+	  {% if page.sameAs != null %}
+	     {{page.sameAs | jsonify}}
+	  {% endif %}   
+	  ]
+	}
+  ]
+}
+

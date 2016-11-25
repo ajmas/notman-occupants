@@ -1,0 +1,20 @@
+
+{
+    "@context": {
+        "schema": "http://schema.org/"
+    },
+    "@graph": [{
+        "@id": "person",
+        "@type": "schema:Person",
+        "schema:givenName": "{{page.givenName}}",
+        "schema:familyName": "{{page.familyName}}",
+        "schema:image": "https://www.gravatar.com/avatar/da74db6a6745bd007548dab988b16df8?s=200",
+        "schema:worksFor": "{{page.worksFor}}",
+        "schema:sameAs": [
+	  {% if page.sameAs != null %}
+	     {{page.sameAs | jsonify}}
+	  {% endif %}
+        ]
+    }]
+}
+ 

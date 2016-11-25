@@ -1,0 +1,61 @@
+[{
+    "ref": "DogSync",
+    "display": "DogSync",
+    "image": "512x512.jpg"
+}, {
+    "ref": "FundMetic",
+    "display": "FundMetic",
+    "image": "480x480.png"
+}, {
+    "ref": "Groupe_Autour_Du_Monde",
+    "display": "Group au tour du Monde"
+}, {
+    "ref": "Macromeasures",
+    "display": "Macromeasures",
+    "image": "1500x1500.png"
+}, {
+    "ref": "Les_Technologies_Discoshare",
+    "display": "Les Technologies Discoshare"
+}, {
+    "ref": "Guides",
+    "display": "Guides"
+}, {
+    "ref": "Men_at_Heights",
+    "display": "Men at Heights"
+}, {
+    "ref": "Octoraise",
+    "display": "Octoraise",
+    "image": "200x200.png"
+}, {
+    "ref": "OMSO_Foundation",
+    "display": "OSMO Foundation",
+    "image": "768x768.jpg"
+}, {
+    "ref": "PayHero",
+    "display": "PayHero",
+    "image": "880x880.png"
+}, {
+    "ref": "Prollster",
+    "display": "Prollster",
+    "image": "512x512.jpg"
+}, {
+    "ref": "reelyActive",
+    "display": "reelyActive",
+    "image": "960x960.png",
+    "sameAs": [
+        "https://www.facebook.com/reelyActive",
+        "https://www.twitter.com/reelyActive",
+        "https://plus.google.com/+reelyActive",
+        "https://www.linkedin.com/company/reelyactive",
+        "https://www.instagram.com/reelyactive",
+        "https://www.youtube.com/reelyActive",
+        "https://github.com/reelyactive",
+        "https://www.npmjs.com/~reelyactive",
+        "https://angel.co/reelyactive",
+        "https://www.crunchbase.com/organization/reelyactive"
+    ]
+}, {
+    "ref": "Taste_Bay",
+    "display": "Taste Bay",
+    "image": "256x256.png"
+}]

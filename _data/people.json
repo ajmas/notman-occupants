@@ -1,0 +1,29 @@
+[{
+    "ref": "Andre_Mas",
+    "display": "Andre Mas",
+    "givenName": "Andre",
+    "familyName": "Mas",
+    "image": "707x707.jpg"
+}, {
+    "ref": "Emma_Williams",
+    "display": "Emma Williams",
+    "givenName": "Emma",
+    "familyName": "Williams",
+    "image": "380x380.jpg"
+}, {
+    "ref": "Marek_Zaluski",
+    "display": "Marek Zaluski",
+    "givenName": "Marek",
+    "familyName": "Zaluski",
+    "worksFor": "Lab Zed",
+    "image": "https://www.gravatar.com/avatar/da74db6a6745bd007548dab988b16df8?s=200",
+    "sameAs": [
+        "https://twitter.com/marekweb"
+    ]
+}, {
+    "ref": "Ritika_Dutt",
+    "display": "Ritika Dutt",
+    "givenName": "Ritika",
+    "familyName": "Dutt",
+    "image": "320x320.jpg"
+}]
