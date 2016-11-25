@@ -3,8 +3,8 @@
     "display": "DogSync",
     "image": "512x512.jpg"
 }, {
-    "ref": "FundMetic",
-    "display": "FundMetic",
+    "ref": "FundMetric",
+    "display": "FundMetric",
     "image": "480x480.png"
 }, {
     "ref": "Groupe_Autour_Du_Monde",
@@ -27,7 +27,7 @@
     "display": "Octoraise",
     "image": "200x200.png"
 }, {
-    "ref": "OMSO_Foundation",
+    "ref": "OSMO_Foundation",
     "display": "OSMO Foundation",
     "image": "768x768.jpg"
 }, {
