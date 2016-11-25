@@ -20,24 +20,24 @@ page_gen:
   - data: 'organizations'
     template: 'organization-entry-html'
     name: 'ref'
-    dir: 'Organization'
+    dir: 'organization'
     index_files: true
     extension: 'html'
   - index_files: true 
     data: 'organizations'
     template: 'organization-entry-json'
     name: 'ref'
-    dir: 'Organization' 
+    dir: 'organization' 
     extension: 'json'
   - data: 'people'
     template: 'person-html'
     name: 'ref'
-    dir: 'Person'
+    dir: 'person'
     index_files: true
     extension: 'html'
   - index_files: true 
     data: 'people'
     template: 'person-json'
     name: 'ref'
-    dir: 'Person' 
+    dir: 'person' 
     extension: 'json'    
